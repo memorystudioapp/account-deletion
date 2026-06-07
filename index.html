@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Account Deletion Request</title>
+    <style>
+        body { font-family: sans-serif; max-width: 500px; margin: 40px auto; padding: 20px; }
+        input, button { width: 100%; padding: 10px; margin: 10px 0; }
+        button { background: #d9534f; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h2>Request Account Deletion</h2>
+    <p>Please enter your registered email to delete your app account and all associated data.</p>
+    <!-- Replace the action URL with your actual backend API or a form service like Formspree -->
+    <form action="YOUR_BACKEND_API_OR_FORMSPREE_URL" method="POST">
+        <input type="email" name="email" placeholder="Your App Email Address" required>
+        <button type="submit">Permanently Delete My Account</button>
+    </form>
+</body>
+</html>
